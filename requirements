@@ -1,0 +1,21 @@
+# Install Java
+!apt-get update
+!apt-get install -y openjdk-8-jdk
+!java -version
+
+# Install pyspark, SparkOCR, and SparkNLP
+!pip install --ignore-installed -q pyspark==2.4.4
+# Insall Spark Ocr from pypi using secret
+!python -m pip install --upgrade spark-ocr==$version  --extra-index-url https://pypi.johnsnowlabs.com/$secret
+# or install from local path
+# %pip install --user ../../python/dist/spark-ocr-[version].tar.gz
+!pip install --ignore-installed -q spark-nlp==2.5.2
+
+# install spacy
+! pip install spacy
+! python -m spacy download en_core_web_sm
+! python -m spacy download fr_core_news_sm
+
+# install transformer for camembert-ner NER
+! pip install transformers
+! pip install sentencepiece
