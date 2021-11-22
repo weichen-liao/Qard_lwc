@@ -14,5 +14,6 @@ For Deployment:
 1. prepare the necessary lisence for spark-ocr: https://my.johnsnowlabs.com/
 2. install the dependencies in requirements.txt
 3. run pipeline.py
-   this script will load all the PDFs under a given folder, and generate a json file for each PDF, where stores the extracted ORG entities from Spacy or Camembert
+   this script will load all the PDFs under a given folder, and generate a json file for each PDF, where stores the extracted ORG entities from Spacy or Camembert.
+   text.json is the example
    
