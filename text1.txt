@@ -1,0 +1,1 @@
+{"spacy_ner": "Batiment J|Soci\u00e9t\u00e9|Soci\u00e9t\u00e9 ls somme|Soci\u00e9t\u00e9 la somme|C.Com|MILLE|HUT|Iz lol|unt|Vassad\u00e9|iui|Pempioi|socidt\u00e9 &|& Fassaci\u00e9|Soci\u00e9t\u00e9s de ROUEN|Soci\u00e9t\u00e9 aa|Nquidation de biens|ELECTION", "camembert_ner": "IE|T|soci\u00e9t\u00e9|S.A.R.L|Soci\u00e9t\u00e9"}
